@@ -6,15 +6,17 @@ To install Quote Tumbler, visit the [Google Play Store page](https://play.google
 
 ## Usage
 Quote Tumbler is easy to use:
-- Simply press the \\+ button to add a quote.
+- Simply press the \+ button to add a quote.
 - Select a quote to edit or delete it.
 - Place the widget on your home screen to see a new random quote every 30 minutes.
 
 ## Screenshots
-![Widget Screenshot](./assets/widget_screenshot.png)
-![Home Screenshot](./assets/home_screenshot.png)
-![New Quote Screenshot](./assets/new_quote_screenshot.png)
-![Edit Delete Screenshot](./assets/edit_delete_screenshot.png)
+<img src="./assets/widget_screenshot.png" alt="Widget Screenshot" width="300"/>
+<img src="./assets/home_screenshot.png" alt="Home Screenshot" width="300"/>
+<br>
+<img src="./assets/new_quote_screenshot.png" alt="New Quote Screenshot" width="300"/>
+<img src="./assets/edit_delete_screenshot.png" alt="Edit Delete Screenshot" width="300"/>
+
 
 
 ## About the Developer
