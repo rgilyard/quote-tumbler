@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quote Tumbler</string>
+    <string name="appwidget_text">Your quotes will display here</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">See a new, random quote every 20 minutes</string>
+    <string name="enter_quote">Enter quote.</string>
+    <string name="add_quote">Add quote</string>
+    <string name="add_button_description">Add button</string>
+    <string name="main_title">Quotes</string>
+    <string name="quote_detail">Quote goes here.</string>
+    <string name="edit_button_description">Edit</string>
+    <string name="delete_button_description">Delete</string>
+</resources>

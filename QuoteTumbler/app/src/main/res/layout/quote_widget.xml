@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.QuoteTumbler.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.QuoteTumbler.AppWidgetContainer"
+    android:background="@drawable/rounded_widget_background"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.QuoteTumbler.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/appwidget_text"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="start"
+        android:padding="12dp"
+        android:background="@android:color/transparent"
+        android:text="@string/appwidget_text"
+        android:textColor="#0BD3D3"
+        android:textSize="28sp" />
+</RelativeLayout>
