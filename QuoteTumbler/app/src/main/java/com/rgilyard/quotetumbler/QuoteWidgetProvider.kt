@@ -46,10 +46,28 @@ internal fun updateQuoteWidget(
 
     // Construct the RemoteViews object
     val views = RemoteViews(context.packageName, R.layout.quote_widget)
+    setFontSize(views, quote)
     views.setTextViewText(R.id.appwidget_text, quote)
 
     // Instruct the widget manager to update the widget
     appWidgetManager.updateAppWidget(appWidgetId, views)
+}
+
+internal fun setFontSize(views: RemoteViews, quote: String) {
+
+    val size: Float = when {
+        quote.length <= 50 -> 28f
+        quote.length in 51..100 -> 26f
+        quote.length in 101..150 -> 24f
+        quote.length in 151..100 -> 22f
+        quote.length in 101..200 -> 20f
+        quote.length in 201..250 -> 18f
+        quote.length in 301..350 -> 16f
+        quote.length in 351..400 -> 14f
+        else -> 12f
+    }
+
+    views.setFloat(R.id.appwidget_text, "setTextSize", size)
 }
 
 fun getQuote(context: Context): String {

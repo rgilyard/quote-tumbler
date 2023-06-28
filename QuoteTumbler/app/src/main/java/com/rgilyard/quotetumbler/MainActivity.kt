@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
 
     // Loads hardcoded quotes from assets
     private fun loadQuotesFromAssets(context: Context): List<String> {
-        val inputStream = context.assets.open("quotes.json")
+        val inputStream = context.assets.open("quote_1.json")
         val jsonText: String = inputStream.bufferedReader().use(BufferedReader::readText)
         val jsonArray = JSONArray(jsonText)
         val quotesList = mutableListOf<String>()
